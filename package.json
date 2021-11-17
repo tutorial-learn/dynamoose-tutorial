@@ -1,0 +1,26 @@
+{
+  "name": "koa-dynamodb-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "dependencies": {
+    "dynamoose": "^2.8.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^10.1.1",
+    "koa-swagger-decorator": "^1.8.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@types/koa-bodyparser": "^4.3.4",
+    "@types/koa-cors": "^0.0.2",
+    "@types/shortid": "^0.0.29",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
